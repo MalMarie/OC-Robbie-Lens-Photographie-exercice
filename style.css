@@ -45,6 +45,8 @@ footer {
   color: white;
   border-radius: 50px;
   padding: 20px 30px;
+  margin: 2em;
+  display: inline-block;
 }
 
 a:hover {
@@ -154,4 +156,29 @@ nav a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.overlay {
+  background: #000000;
+  position: relative;
+}
+
+.text-over {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 140px;
+  left: 0px;
+  text-align: center;
+}
+
+.grid-paysages img:hover,
+.grid-portraits img:hover {
+  opacity: 0.3;
+}
+
+.overlay:hover {
+  .text-over {
+    display: inline-block; 
+} 
 }
