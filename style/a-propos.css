@@ -1,0 +1,59 @@
+.carre-contenu {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+    margin-bottom: 80px;
+  }
+  
+  .carre-contenu h2 {
+    margin-top: 30px;
+  }
+  
+  .carre-contenu ul {
+    margin-top: 30px;
+  }
+  
+  .carre-contenu + div {
+    text-align: center;
+  }
+  
+  .a-propos-main {
+    width: 50%;
+    margin: auto;
+  }
+
+table {
+    color: white;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 2em;
+    width: 50vw;
+}
+
+caption {
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 1em;
+}
+
+th {
+    font-size: large;
+    font-weight:normal ;
+    margin: 1em;
+}
+
+th, td {
+    border: 1px solid #8e86b5;
+    text-align: center;
+}
+
+th {
+
+    padding: 1em;
+    margin: 1em;
+}
+
+td {
+    padding: 3em;
+    margin: 3em;
+}
